@@ -1,0 +1,103 @@
+body, h1, h2, h3, ul, p {
+margin: 0;
+padding: 0;
+}
+
+#header {
+background-color: #35424a;
+border-bottom: 5px solid coral; 
+}
+
+#header h1 {
+color: #fff;    
+font-family: sans-serif;
+padding: 15px 0;
+display: inline-block;
+}
+
+#header .logo {
+color: coral
+}
+
+.navbar {
+float: right;
+}
+
+.navbar li {
+display: inline;
+}
+
+.navbar li a {
+text-decoration: none;
+color: #fff;
+font-family: sans-serif;
+padding: 25px 15px;
+display: inline-block;
+}
+
+.navbar li a:hover {
+color:coral;
+}
+.container {
+ width: 70% ;  
+ margin: auto;   
+}
+/* WTF IS THIS CONTAINER? */
+
+#banner{
+    /* vh haqida umuman tushunchaga ega bo'lmagan odam, 1-projectda ishlatish, mazzami? */
+height: 60vh;    
+background-image:url();
+background-size: cover;
+background-position: center -300px;
+text-align: center;
+
+font-family: sans-serif;
+}
+
+#banner h1 {
+font-size: 50px;
+margin-bottom: 25px;
+padding-top: 150px; 
+}
+
+#newsletter {
+background-color: #35424a ;
+color:  #fff; 
+font-family: sans-serif;
+padding: 20px 0px;
+display: inline-block;
+width: 100%;
+}
+
+#newsletter .left {
+float: left;
+}
+#newsletter .right {
+float: right
+}
+#newsletter input {
+padding: 5px;
+       
+}
+
+.button {
+    
+padding: 7px 15px;
+border: none;
+background-color: coral;
+color: #fff;
+margin: 15px;
+}
+
+#banner{
+    background-image: url(../images/metall\ trade.jpg) ;
+    background-repeat: no-repeat    ;
+    width: 100vw;
+    height: 50vh;
+    
+}
+
+#banner h1 , p{
+    color: #fff;
+}
